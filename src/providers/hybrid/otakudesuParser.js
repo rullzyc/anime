@@ -8,38 +8,48 @@ class OtakudesuParser {
     const url = page > 1 ? `${BASE_URL}/page/${page}/` : `${BASE_URL}/`;
     const cacheKey = `otaku_latest_p${page}`;
     
-    // Menunggu container .venz agar data dipastikan sudah ter-load
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.venz');
-    const $ = cheerio.load(html);
-    const results = [];
+    console.log(`[PARSER] Mencoba mengambil data dari: ${url}`);
+    
+    try {
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'a.tip');
+      const $ = cheerio.load(html);
+      const results = [];
 
-    $('.venz a.tip').each((i, el) => {
-      const title = $(el).find('.title div').text().trim() || $(el).attr('title') || "";
-      const endpoint = $(el).attr('href');
-      const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : `otaku-${i}`;
-      const coverImage = $(el).find('img').attr('src');
+      // Mencoba mencari di container .venz atau langsung a.tip jika .venz tidak ada
+      const cards = $('.venz a.tip').length > 0 ? $('.venz a.tip') : $('a.tip');
       
-      // Di struktur baru, episode ada di dalam .episode span
-      const epText = $(el).find('.episode span').first().text().trim(); 
+      console.log(`[PARSER] Ditemukan ${cards.length} elemen anime.`);
 
-      if (title && slug) {
-        // Membersihkan judul dari kata "Subtitle Indonesia" jika ada
-        const cleanTitle = title.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
+      cards.each((i, el) => {
+        const title = $(el).find('.title div').text().trim() || $(el).attr('title') || $(el).find('h2').text().trim();
+        const endpoint = $(el).attr('href');
+        const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
+        const coverImage = $(el).find('img').attr('src');
+        
+        // Coba beberapa selector untuk episode
+        const epText = $(el).find('.episode span').first().text().trim() || $(el).find('.epz').text().trim(); 
 
-        results.push({
-          _id: slug,
-          slug: slug,
-          title: cleanTitle,
-          coverImage: coverImage,
-          status: 'Ongoing',
-          type: 'TV',
-          rating: 0, 
-          currentEpisode: parseInt(epText.replace(/[^0-9]/g, '')) || 0
-        });
-      }
-    });
+        if (title && slug) {
+          const cleanTitle = title.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
+          results.push({
+            _id: slug,
+            slug: slug,
+            title: cleanTitle,
+            coverImage: coverImage,
+            status: 'Ongoing',
+            type: 'TV',
+            rating: 0, 
+            currentEpisode: parseInt(epText.replace(/[^0-9]/g, '')) || 0
+          });
+        }
+      });
 
-    return results;
+      console.log(`[PARSER] Berhasil memproses ${results.length} anime.`);
+      return results;
+    } catch (err) {
+      console.error(`[PARSER] Gagal mengambil data: ${err.message}`);
+      return [];
+    }
   }
 
   async getAnimeDetail(slug) {
@@ -49,7 +59,7 @@ class OtakudesuParser {
     const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.fotoanime');
     const $ = cheerio.load(html);
 
-    const title = $('.infozingle p:contains("Judul")').text().replace('Judul:', '').trim() || $('.jdlrx h1').text().trim();
+    const title = $('.infozingle p:contains("Judul")').text().replace('Judul:', '').trim() || $('.jdlrx h1').text().trim() || slug;
     const coverImage = $('.fotoanime img').attr('src');
     const description = $('.sinopc p').text().trim();
     
@@ -92,7 +102,6 @@ class OtakudesuParser {
     const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.mirror');
     const $ = cheerio.load(html);
 
-    // Selector video di domain .fit
     let iframeUrl = $('.responsive-embed-container iframe').attr('src') || $('.video-content iframe').attr('src');
     
     if (!iframeUrl) {
