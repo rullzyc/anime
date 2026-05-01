@@ -1,4 +1,4 @@
-const otakudesuParser = require('../providers/hybrid/otakudesuParser');
+const multiSourceParser = require('../providers/hybrid/multiSourceParser');
 
 /**
  * GET /api/anime?page=1
@@ -6,7 +6,7 @@ const otakudesuParser = require('../providers/hybrid/otakudesuParser');
 const getAnimeList = async (req, res, next) => {
   try {
     const page = parseInt(req.query.page) || 1;
-    const list = await otakudesuParser.getLatestAnime(page);
+    const list = await multiSourceParser.getLatestAnime(page);
 
     res.json({
       success: true,
@@ -26,7 +26,7 @@ const getAnimeList = async (req, res, next) => {
  */
 const getLatestAnime = async (req, res, next) => {
   try {
-    const list = await otakudesuParser.getLatestAnime(1);
+    const list = await multiSourceParser.getLatestAnime(1);
     res.json({ success: true, data: list });
   } catch (err) {
     next(err);
@@ -38,7 +38,7 @@ const getLatestAnime = async (req, res, next) => {
  */
 const getPopularAnime = async (req, res, next) => {
   try {
-    const list = await otakudesuParser.getLatestAnime(1); 
+    const list = await multiSourceParser.getLatestAnime(1);
     res.json({ success: true, data: list });
   } catch (err) {
     next(err);
@@ -53,7 +53,7 @@ const searchAnime = async (req, res, next) => {
     const q = (req.query.q || '').trim().toLowerCase();
     if (!q) return res.json({ success: true, data: [] });
 
-    const results = await otakudesuParser.searchAnime(q);
+    const results = await multiSourceParser.searchAnime(q);
     
     res.json({ success: true, data: results });
   } catch (err) {
@@ -67,7 +67,7 @@ const searchAnime = async (req, res, next) => {
 const getAnimeById = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const detail = await otakudesuParser.getAnimeDetail(id);
+    const detail = await multiSourceParser.getAnimeDetail(id);
 
     res.json({ success: true, data: detail });
   } catch (err) {

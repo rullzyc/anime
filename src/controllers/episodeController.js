@@ -1,4 +1,4 @@
-const otakudesuParser = require('../providers/hybrid/otakudesuParser');
+const multiSourceParser = require('../providers/hybrid/multiSourceParser');
 
 /**
  * GET /api/episode/:slug
@@ -7,7 +7,7 @@ const getEpisodeById = async (req, res, next) => {
   try {
     const { id } = req.params; // ini adalah epSlug
 
-    const episodeData = await otakudesuParser.getEpisodeVideo(id);
+    const episodeData = await multiSourceParser.getEpisodeVideo(id);
 
     const epNumMatch = episodeData.title?.match(/Episode\s+(\d+)/i);
     const epNum = epNumMatch ? parseInt(epNumMatch[1]) : 1;

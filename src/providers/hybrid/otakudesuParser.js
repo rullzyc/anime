@@ -146,32 +146,63 @@ class OtakudesuParser {
     };
   }
 
+  _decodeIframeFromBase64(encoded) {
+    try {
+      const decoded = Buffer.from(encoded, 'base64').toString('utf-8');
+      const m = decoded.match(/src=["']([^"']+)["']/);
+      return m ? m[1] : null;
+    } catch {
+      return null;
+    }
+  }
+
   async getEpisodeVideo(epSlug) {
     const url = `${BASE_URL}/${epSlug}/`;
     const cacheKey = `otaku_video_${epSlug}`;
+    console.log(`[PARSER] Video episode: ${url}`);
 
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'body');
-    const $ = cheerio.load(html);
+    try {
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'body');
+      const $ = cheerio.load(html);
 
-    let iframeUrl = $('.responsive-embed-container iframe').attr('src') || $('.video-content iframe').attr('src');
-    
-    if (!iframeUrl) {
-      iframeUrl = $('iframe[src*="desustream"], iframe[src*="filemoon"], iframe[src*="vidhide"]').attr('src');
+      const title = $('h1.entry-title, .venutama h1, h1').first().text().trim();
+      const servers = [];
+
+      // Metode utama: Mirror select dengan base64 encoding
+      // otakudesu.fit menyimpan iframe dalam base64 di setiap <option>
+      $('select.mirror option, .mirrorstream option').each((i, el) => {
+        const encoded = $(el).val();
+        const label = $(el).text().trim();
+        if (encoded && encoded.length > 20) {
+          const iframeSrc = this._decodeIframeFromBase64(encoded);
+          if (iframeSrc) {
+            servers.push({
+              name: label || `Server ${i + 1}`,
+              type: 'iframe',
+              url: iframeSrc,
+              quality: 'Auto',
+              isDefault: i === 0
+            });
+          }
+        }
+      });
+
+      // Metode fallback: iframe langsung di container
+      if (servers.length === 0) {
+        const iframeSrc = $(
+          'div#pembed iframe, div.player-embed iframe, .responsive-embed-container iframe, .video-content iframe'
+        ).first().attr('src');
+        if (iframeSrc) {
+          servers.push({ name: 'Default Server', type: 'iframe', url: iframeSrc, quality: 'Auto', isDefault: true });
+        }
+      }
+
+      console.log(`[PARSER] Video: ${servers.length} server ditemukan untuk ${epSlug}.`);
+      return { _id: epSlug, title, servers };
+    } catch (err) {
+      console.error(`[PARSER] getEpisodeVideo gagal: ${err.message}`);
+      return { _id: epSlug, title: '', servers: [] };
     }
-
-    const title = $('.venutama h1').text().trim();
-
-    return {
-      _id: epSlug,
-      title: title,
-      servers: iframeUrl ? [{
-        name: 'Otakudesu Server',
-        type: 'iframe',
-        url: iframeUrl,
-        quality: 'Auto',
-        isDefault: true
-      }] : []
-    };
   }
 }
 
