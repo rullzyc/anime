@@ -11,36 +11,42 @@ class OtakudesuParser {
     console.log(`[PARSER] Mencoba mengambil data dari: ${url}`);
     
     try {
-      // Kita tunggu selector 'a.tip' saja karena .venz sepertinya sudah hilang
-      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'a.tip');
+      // Kita tunggu selector 'article.bs' karena .venz sudah hilang
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'article.bs');
       const $ = cheerio.load(html);
       const results = [];
 
-      // Mencari semua link dengan class tip
-      const cards = $('a.tip');
-      console.log(`[PARSER] Analisis HTML selesai. Ditemukan ${cards.length} elemen 'a.tip'.`);
+      // Mencari semua article.bs
+      const cards = $('article.bs');
+      console.log(`[PARSER] Analisis HTML selesai. Ditemukan ${cards.length} elemen 'article.bs'.`);
 
       cards.each((i, el) => {
-        // Selector judul terbaru di .fit: .title div
-        const title = $(el).find('.title div').text().trim() || $(el).attr('title') || "";
-        const endpoint = $(el).attr('href');
-        const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
+        const fullTitle = $(el).find('.tt h2').text().trim() || $(el).find('a.tip').attr('title') || "";
+        const endpoint = $(el).find('a.tip').attr('href');
+        const rawSlug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
         const coverImage = $(el).find('img').attr('src');
         
-        // Selector episode terbaru di .fit: .episode span
-        const epText = $(el).find('.episode span').first().text().trim(); 
+        // Episode di .fit: .epx
+        const epText = $(el).find('.epx').text().replace(/[^0-9]/g, '').trim(); 
+        const epNum = parseInt(epText) || 0;
 
-        if (title && slug && !slug.includes('genre')) {
-          const cleanTitle = title.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
+        if (fullTitle && rawSlug && !rawSlug.includes('genre')) {
+          // Bersihkan slug jika itu adalah slug episode
+          // Contoh: hokuto-no-ken-episode-5-subtitle-indonesia -> hokuto-no-ken
+          let seriesSlug = rawSlug.replace(/-episode-\d+.*$/i, '').replace(/-sub-.*$/i, '').replace(/-subtitle-indonesia.*$/i, '');
+          
+          // Bersihkan judul dari embel-embel episode
+          const cleanTitle = fullTitle.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
+
           results.push({
-            _id: slug,
-            slug: slug,
+            _id: seriesSlug,
+            slug: seriesSlug,
             title: cleanTitle,
             coverImage: coverImage,
             status: 'Ongoing',
             type: 'TV',
             rating: 0, 
-            currentEpisode: parseInt(epText.replace(/[^0-9]/g, '')) || 0
+            currentEpisode: epNum
           });
         }
       });
