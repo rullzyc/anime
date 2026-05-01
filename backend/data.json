@@ -1,0 +1,3391 @@
+{
+  "anime": [
+    {
+      "title": "Jujutsu Kaisen",
+      "titleEnglish": "Jujutsu Kaisen",
+      "titleJapanese": "呪術廻戦",
+      "slug": "jujutsu-kaisen",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-bbBWj5YG0CGo.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113415-YuCa4yobjl1T.jpg",
+      "description": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna.",
+      "genres": [
+        "Action",
+        "Supernatural",
+        "Horror",
+        "Shounen"
+      ],
+      "status": "Ongoing",
+      "rating": 8.7,
+      "totalEpisodes": 47,
+      "currentEpisode": 47,
+      "isPopular": true,
+      "isLatest": true,
+      "season": "Fall",
+      "year": 2020,
+      "studio": "MAPPA",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:12:14.534Z",
+      "_id": "69f4c2cec393fcade8613a4a"
+    },
+    {
+      "title": "Chainsaw Man",
+      "titleEnglish": "Chainsaw Man",
+      "titleJapanese": "チェンソーマン",
+      "slug": "chainsaw-man",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx127230-FlochcFsyoF.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/127230-gz0Nn2SzKIaE.jpg",
+      "description": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his deceased father's debt.",
+      "genres": [
+        "Action",
+        "Gore",
+        "Supernatural",
+        "Shounen"
+      ],
+      "status": "Ongoing",
+      "rating": 8.5,
+      "totalEpisodes": 12,
+      "currentEpisode": 12,
+      "isPopular": true,
+      "isLatest": false,
+      "season": "Fall",
+      "year": 2022,
+      "studio": "MAPPA",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:10:34.534Z",
+      "_id": "69f4c2ce9b4f233e11d052e0"
+    },
+    {
+      "title": "Demon Slayer",
+      "titleEnglish": "Demon Slayer: Kimetsu no Yaiba",
+      "titleJapanese": "鬼滅の刃",
+      "slug": "demon-slayer",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-PEn1CTc93blC.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101922-yvBqe4Gu8oBc.jpg",
+      "description": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself.",
+      "genres": [
+        "Action",
+        "Fantasy",
+        "Historical",
+        "Shounen"
+      ],
+      "status": "Completed",
+      "rating": 8.9,
+      "totalEpisodes": 44,
+      "currentEpisode": 44,
+      "isPopular": true,
+      "isLatest": false,
+      "season": "Spring",
+      "year": 2019,
+      "studio": "ufotable",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:08:54.534Z",
+      "_id": "69f4c2ce2a4a4b49e9cb4bce"
+    },
+    {
+      "title": "Attack on Titan",
+      "titleEnglish": "Attack on Titan",
+      "titleJapanese": "進撃の巨人",
+      "slug": "attack-on-titan",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-C3H9Q3nx3xyG.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/16498-8jpFCOcDmneX.jpg",
+      "description": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. Eren Yeager, after seeing his mother being devoured by a Titan, vows to kill every single Titan and reclaim the world for mankind.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "status": "Completed",
+      "rating": 9.1,
+      "totalEpisodes": 87,
+      "currentEpisode": 87,
+      "isPopular": true,
+      "isLatest": false,
+      "season": "Spring",
+      "year": 2013,
+      "studio": "MAPPA",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:07:14.534Z",
+      "_id": "69f4c2cebfbb7a1bb4a68eb0"
+    },
+    {
+      "title": "Spy x Family",
+      "titleEnglish": "Spy x Family",
+      "titleJapanese": "スパイファミリー",
+      "slug": "spy-x-family",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx140960-SgDHkZBn4Trv.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/140960-l0bOGsnuOeH1.jpg",
+      "description": "Agent Twilight is the best spy in Westalis. His newest mission requires him to start a family, which means adopting a child and getting a wife. His adopted daughter, Anya, happens to be a telepath, and his new wife, Yor, is an assassin.",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Slice of Life",
+        "Shounen"
+      ],
+      "status": "Ongoing",
+      "rating": 8.6,
+      "totalEpisodes": 25,
+      "currentEpisode": 25,
+      "isPopular": true,
+      "isLatest": true,
+      "season": "Spring",
+      "year": 2022,
+      "studio": "WIT Studio",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:12:14.534Z",
+      "_id": "69f4c2ce1d98fdbf69a9b00b"
+    },
+    {
+      "title": "One Piece",
+      "titleEnglish": "One Piece",
+      "titleJapanese": "ワンピース",
+      "slug": "one-piece",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21-YrQcross-fmn.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/21-T4PJYSFgP42z.jpg",
+      "description": "Gol D. Roger, a man referred to as the \"Pirate King,\" is set to be executed by the World Government. But just before his demise, he confirms the existence of a great treasure, One Piece, located somewhere within the vast ocean known as the Grand Line.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Shounen"
+      ],
+      "status": "Ongoing",
+      "rating": 8.8,
+      "totalEpisodes": 1100,
+      "currentEpisode": 1100,
+      "isPopular": true,
+      "isLatest": true,
+      "season": "Fall",
+      "year": 1999,
+      "studio": "Toei Animation",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:12:14.534Z",
+      "_id": "69f4c2ceeabd64826b5ee091"
+    },
+    {
+      "title": "Vinland Saga",
+      "titleEnglish": "Vinland Saga",
+      "titleJapanese": "ヴィンランド・サガ",
+      "slug": "vinland-saga",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101348-1Zi0EcWIMVOm.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101348-GkYxlGH08k44.jpg",
+      "description": "As a child, Thorfinn sat at the feet of the great Leif Ericson and was raised on tales of a land far to the west, but his youthful fantasies were shattered by a mercenary raid. Raised by the Vikings who murdered his father, he became a mercenary himself.",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Historical"
+      ],
+      "status": "Completed",
+      "rating": 8.8,
+      "totalEpisodes": 48,
+      "currentEpisode": 48,
+      "isPopular": false,
+      "isLatest": false,
+      "season": "Summer",
+      "year": 2019,
+      "studio": "MAPPA",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:05:34.534Z",
+      "_id": "69f4c2ceac8c488bb7038800"
+    },
+    {
+      "title": "Mushoku Tensei",
+      "titleEnglish": "Mushoku Tensei: Jobless Reincarnation",
+      "titleJapanese": "無職転生",
+      "slug": "mushoku-tensei",
+      "coverImage": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108465-lToFZkFmqPfh.jpg",
+      "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108465-3dSLDXBPWmxM.jpg",
+      "description": "A 34-year-old underachiever gets another chance at life when he's reborn in a new world as Rudeus Greyrat. He vows to live his life without regrets in this new world with magic.",
+      "genres": [
+        "Drama",
+        "Ecchi",
+        "Fantasy",
+        "Slice of Life"
+      ],
+      "status": "Completed",
+      "rating": 8.3,
+      "totalEpisodes": 23,
+      "currentEpisode": 23,
+      "isPopular": false,
+      "isLatest": false,
+      "season": "Winter",
+      "year": 2021,
+      "studio": "Studio Bind",
+      "type": "TV",
+      "createdAt": "2026-05-01T15:03:54.534Z",
+      "_id": "69f4c2cebf8a9c8af25c6952"
+    }
+  ],
+  "episodes": [
+    {
+      "_id": "69f4c2ce37bc049499b51b6e",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a0/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce0fe3061a7b68ee2b",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a1/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce92f71528f615eaea",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a2/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce26091b5e16244eee",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a3/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceef4c908709215508",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a4/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5d367c053f58b1b7",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a5/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cef00645cb2569527e",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a6/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4799de3086dfb6ef",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a7/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce2de3b4375a1df7db",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a8/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce40eca8c1266041b0",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a9/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5aec0ed11b12458f",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a10/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceac204e25098cb3e3",
+      "animeId": "69f4c2cec393fcade8613a4a",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cec393fcade8613a4a11/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce99ec974683e44de4",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e00/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cec1f600233356da52",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e01/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceb7eee897d080cdf6",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e02/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cef920c99ed21f6423",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e03/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cea6e3f2541cdbaa18",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e04/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cef1e346caee091bf8",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e05/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce1a80ed8cbba14855",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e06/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce922a435074980c20",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e07/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced468152eaedcd5d1",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e08/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce264445391ce4a240",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e09/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced7c7b2344d349324",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e010/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cee962fbd64b650a28",
+      "animeId": "69f4c2ce9b4f233e11d052e0",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce9b4f233e11d052e011/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4b2c69efc6ea0bde",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce0/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cef5788a788666df0c",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce1/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce7c2c06f65546d39d",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce2/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce91d9a69754cc834d",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce3/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce3a077b63d1d2e7d6",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce4/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce086031ae958dbfe9",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce5/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceab1af28ce7d43c46",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce6/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce8ea91f015be3ec7b",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce7/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cee0ac5c0f8cf4c824",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce8/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce2a7fb89ca1502f0b",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce9/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceab13ddf1a0f9199a",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce10/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce197feeb0a8a347a7",
+      "animeId": "69f4c2ce2a4a4b49e9cb4bce",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce2a4a4b49e9cb4bce11/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce9ac7ae074e7490d9",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb00/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce76b194a38654dce1",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb01/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5430c31a47189fbf",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb02/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce574a99958e06d799",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb03/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce43d0d4801c4c1669",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb04/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4a8423c7b042ef2f",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb05/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cea8a609880d69610f",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb06/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce8abd881ebcab4284",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb07/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce082c6c930d2cbef1",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb08/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceb3d9846ca9d3240e",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb09/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5fb6e27940224fa1",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb010/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce797efc81c019cbd3",
+      "animeId": "69f4c2cebfbb7a1bb4a68eb0",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebfbb7a1bb4a68eb011/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce7bb11c92820969ba",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b0/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce1a49aed666aaeac0",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b1/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceb7e5c54ba4cf7c40",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b2/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cec9c61ac3fb6dedf9",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b3/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced0f41d1a0f1886b3",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b4/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cef3b73e0cfe08742a",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b5/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5cc6f4682b26f2b2",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b6/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce6f3f67058cb5a805",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b7/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cecd01d5e3cb32c484",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b8/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5665c8ed8c3be27e",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b9/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced7d60bcbda61e8a1",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b10/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce0317de89cc17e3ae",
+      "animeId": "69f4c2ce1d98fdbf69a9b00b",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ce1d98fdbf69a9b00b11/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce8c1ef59387ded7cb",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0910/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cec1e5a350c9f49658",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0911/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce1d35d15dc06b8fd0",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0912/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce991babf71b0b780e",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0913/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce577fc78c7bc7d92b",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0914/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce39e8512d9290543d",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0915/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceb9fa5fd065cce264",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0916/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce344ce76c41acd4da",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0917/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cee24368cd55e52c8f",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0918/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced6e4d7e4500834b6",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee0919/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce1cb176afe0651b54",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee09110/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce239ec06ee5992eda",
+      "animeId": "69f4c2ceeabd64826b5ee091",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceeabd64826b5ee09111/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce76d513bff51c475d",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388000/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5a88f5ae2ffde455",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388001/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce561f1e725d10dc7d",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388002/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceb02bff3c1ee63889",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388003/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce32717ef7651ba166",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388004/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4d754f02c4b67845",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388005/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4268d93127b6afe2",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388006/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ced892799ac028b834",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388007/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cecd341af28abef3e9",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388008/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce5436060b57829b3f",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb70388009/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce90cbf0b29e00c170",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb703880010/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce768bf924ca08a1f6",
+      "animeId": "69f4c2ceac8c488bb7038800",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2ceac8c488bb703880011/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce139a07f3be253dfb",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 1,
+      "title": "Episode 1",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69520/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cedd5d1251a1fecc9a",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 2,
+      "title": "Episode 2",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69521/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce907c3546abc1f67d",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 3,
+      "title": "Episode 3",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69522/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce086b57c790b45193",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 4,
+      "title": "Episode 4",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69523/400/225",
+      "duration": 1440,
+      "airDate": "2026-02-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cee041abb1a749805a",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 5,
+      "title": "Episode 5",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69524/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-06T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce7905897baf990ee4",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 6,
+      "title": "Episode 6",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69525/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-13T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce0b1ac4222661f612",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 7,
+      "title": "Episode 7",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69526/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-20T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce4ac45c856369bba1",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 8,
+      "title": "Episode 8",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69527/400/225",
+      "duration": 1440,
+      "airDate": "2026-03-27T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2cee002fbdae0085f8e",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 9,
+      "title": "Episode 9",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69528/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-03T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce513ebb8561c47bac",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 10,
+      "title": "Episode 10",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c69529/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-10T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ce0687c0f296d16c33",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 11,
+      "title": "Episode 11",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c695210/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-17T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    },
+    {
+      "_id": "69f4c2ceaa0301d9c4cd1e99",
+      "animeId": "69f4c2cebf8a9c8af25c6952",
+      "episodeNumber": 12,
+      "title": "Episode 12",
+      "thumbnail": "https://picsum.photos/seed/69f4c2cebf8a9c8af25c695211/400/225",
+      "duration": 1440,
+      "airDate": "2026-04-24T15:12:14.542Z",
+      "isFiller": false,
+      "servers": [
+        {
+          "name": "Server 1 (Embed)",
+          "type": "iframe",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "quality": "720p",
+          "isDefault": true
+        },
+        {
+          "name": "Server 2 (HLS)",
+          "type": "hls",
+          "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+          "quality": "1080p",
+          "isDefault": false
+        },
+        {
+          "name": "Server 3 (HLS Backup)",
+          "type": "hls",
+          "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8",
+          "quality": "720p",
+          "isDefault": false
+        }
+      ]
+    }
+  ]
+}
