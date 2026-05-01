@@ -5,26 +5,31 @@ const BASE_URL = 'https://otakudesu.fit';
 
 class OtakudesuParser {
   async getLatestAnime(page = 1) {
-    // Di domain .fit, halaman utama langsung menampilkan ongoing
     const url = page > 1 ? `${BASE_URL}/page/${page}/` : `${BASE_URL}/`;
     const cacheKey = `otaku_latest_p${page}`;
     
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'a.tip');
+    // Menunggu container .venz agar data dipastikan sudah ter-load
+    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.venz');
     const $ = cheerio.load(html);
     const results = [];
 
-    $('a.tip').each((i, el) => {
-      const title = $(el).find('.title').text().trim() || $(el).attr('title');
+    $('.venz a.tip').each((i, el) => {
+      const title = $(el).find('.title div').text().trim() || $(el).attr('title') || "";
       const endpoint = $(el).attr('href');
       const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : `otaku-${i}`;
       const coverImage = $(el).find('img').attr('src');
-      const epText = $(el).find('.metadata span').first().text().trim(); 
+      
+      // Di struktur baru, episode ada di dalam .episode span
+      const epText = $(el).find('.episode span').first().text().trim(); 
 
       if (title && slug) {
+        // Membersihkan judul dari kata "Subtitle Indonesia" jika ada
+        const cleanTitle = title.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
+
         results.push({
           _id: slug,
           slug: slug,
-          title: title,
+          title: cleanTitle,
           coverImage: coverImage,
           status: 'Ongoing',
           type: 'TV',
@@ -38,7 +43,6 @@ class OtakudesuParser {
   }
 
   async getAnimeDetail(slug) {
-    // Di domain .fit, detail anime menggunakan prefix /series/
     const url = `${BASE_URL}/series/${slug}/`;
     const cacheKey = `otaku_detail_${slug}`;
     
@@ -82,17 +86,15 @@ class OtakudesuParser {
   }
 
   async getEpisodeVideo(epSlug) {
-    // Di domain .fit, episode tidak memiliki prefix /episode/
     const url = `${BASE_URL}/${epSlug}/`;
     const cacheKey = `otaku_video_${epSlug}`;
 
-    // Menunggu mirror selector karena video di domain .fit seringkali load via JS
     const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.mirror');
     const $ = cheerio.load(html);
 
+    // Selector video di domain .fit
     let iframeUrl = $('.responsive-embed-container iframe').attr('src') || $('.video-content iframe').attr('src');
     
-    // Fallback jika iframe diletakkan di tempat lain
     if (!iframeUrl) {
       iframeUrl = $('iframe[src*="desustream"], iframe[src*="filemoon"], iframe[src*="vidhide"]').attr('src');
     }
