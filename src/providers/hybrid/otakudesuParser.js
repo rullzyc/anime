@@ -11,25 +11,26 @@ class OtakudesuParser {
     console.log(`[PARSER] Mencoba mengambil data dari: ${url}`);
     
     try {
+      // Kita tunggu selector 'a.tip' saja karena .venz sepertinya sudah hilang
       const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'a.tip');
       const $ = cheerio.load(html);
       const results = [];
 
-      // Mencoba mencari di container .venz atau langsung a.tip jika .venz tidak ada
-      const cards = $('.venz a.tip').length > 0 ? $('.venz a.tip') : $('a.tip');
-      
-      console.log(`[PARSER] Ditemukan ${cards.length} elemen anime.`);
+      // Mencari semua link dengan class tip
+      const cards = $('a.tip');
+      console.log(`[PARSER] Analisis HTML selesai. Ditemukan ${cards.length} elemen 'a.tip'.`);
 
       cards.each((i, el) => {
-        const title = $(el).find('.title div').text().trim() || $(el).attr('title') || $(el).find('h2').text().trim();
+        // Selector judul terbaru di .fit: .title div
+        const title = $(el).find('.title div').text().trim() || $(el).attr('title') || "";
         const endpoint = $(el).attr('href');
         const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
         const coverImage = $(el).find('img').attr('src');
         
-        // Coba beberapa selector untuk episode
-        const epText = $(el).find('.episode span').first().text().trim() || $(el).find('.epz').text().trim(); 
+        // Selector episode terbaru di .fit: .episode span
+        const epText = $(el).find('.episode span').first().text().trim(); 
 
-        if (title && slug) {
+        if (title && slug && !slug.includes('genre')) {
           const cleanTitle = title.replace(/Subtitle Indonesia/gi, '').replace(/Episode \d+/gi, '').trim();
           results.push({
             _id: slug,
@@ -56,7 +57,7 @@ class OtakudesuParser {
     const url = `${BASE_URL}/series/${slug}/`;
     const cacheKey = `otaku_detail_${slug}`;
     
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.fotoanime');
+    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'body');
     const $ = cheerio.load(html);
 
     const title = $('.infozingle p:contains("Judul")').text().replace('Judul:', '').trim() || $('.jdlrx h1').text().trim() || slug;
@@ -99,7 +100,7 @@ class OtakudesuParser {
     const url = `${BASE_URL}/${epSlug}/`;
     const cacheKey = `otaku_video_${epSlug}`;
 
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.mirror');
+    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'body');
     const $ = cheerio.load(html);
 
     let iframeUrl = $('.responsive-embed-container iframe').attr('src') || $('.video-content iframe').attr('src');
