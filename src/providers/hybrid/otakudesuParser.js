@@ -5,19 +5,20 @@ const BASE_URL = 'https://otakudesu.fit';
 
 class OtakudesuParser {
   async getLatestAnime(page = 1) {
-    const url = page > 1 ? `${BASE_URL}/ongoing-anime/page/${page}/` : `${BASE_URL}/ongoing-anime/`;
+    // Di domain .fit, halaman utama langsung menampilkan ongoing
+    const url = page > 1 ? `${BASE_URL}/page/${page}/` : `${BASE_URL}/`;
     const cacheKey = `otaku_latest_p${page}`;
     
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'ul.venz');
+    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'a.tip');
     const $ = cheerio.load(html);
     const results = [];
 
-    $('.venz ul li').each((i, el) => {
-      const title = $(el).find('h2.jdlflm').text().trim();
-      const endpoint = $(el).find('a').attr('href');
+    $('a.tip').each((i, el) => {
+      const title = $(el).find('.title').text().trim() || $(el).attr('title');
+      const endpoint = $(el).attr('href');
       const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : `otaku-${i}`;
       const coverImage = $(el).find('img').attr('src');
-      const epText = $(el).find('.epz').text().trim(); 
+      const epText = $(el).find('.metadata span').first().text().trim(); 
 
       if (title && slug) {
         results.push({
@@ -37,7 +38,8 @@ class OtakudesuParser {
   }
 
   async getAnimeDetail(slug) {
-    const url = `${BASE_URL}/anime/${slug}/`;
+    // Di domain .fit, detail anime menggunakan prefix /series/
+    const url = `${BASE_URL}/series/${slug}/`;
     const cacheKey = `otaku_detail_${slug}`;
     
     const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.fotoanime');
@@ -80,15 +82,19 @@ class OtakudesuParser {
   }
 
   async getEpisodeVideo(epSlug) {
-    const url = `${BASE_URL}/episode/${epSlug}/`;
+    // Di domain .fit, episode tidak memiliki prefix /episode/
+    const url = `${BASE_URL}/${epSlug}/`;
     const cacheKey = `otaku_video_${epSlug}`;
 
-    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '#lightsVideo');
+    // Menunggu mirror selector karena video di domain .fit seringkali load via JS
+    const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.mirror');
     const $ = cheerio.load(html);
 
-    let iframeUrl = $('#lightsVideo iframe').attr('src');
+    let iframeUrl = $('.responsive-embed-container iframe').attr('src') || $('.video-content iframe').attr('src');
+    
+    // Fallback jika iframe diletakkan di tempat lain
     if (!iframeUrl) {
-      iframeUrl = $('.responsive-embed iframe').attr('src');
+      iframeUrl = $('iframe[src*="desustream"], iframe[src*="filemoon"], iframe[src*="vidhide"]').attr('src');
     }
 
     const title = $('.venutama h1').text().trim();
