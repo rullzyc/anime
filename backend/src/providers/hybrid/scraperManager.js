@@ -1,5 +1,6 @@
 const NodeCache = require('node-cache');
 const axiosProvider = require('./axiosProvider');
+const puppeteerProvider = require('./puppeteerProvider');
 const pLimit = require('p-limit');
 
 // TTL 600 detik (10 menit)
@@ -8,13 +9,17 @@ const limit = pLimit(5); // Batasi konkurensi
 
 class ScraperManager {
   /**
-   * Mengambil HTML menggunakan Memory Cache -> Axios (Vercel Ready)
+   * Mengambil HTML dengan urutan prioritas:
+   * 1. Memory Cache
+   * 2. Axios (cepat)
+   * 3. Puppeteer (fallback, lambat tapi kuat)
    * 
    * @param {string} cacheKey 
    * @param {string} url 
+   * @param {string} pptrSelector Selector yang ditunggu jika fallback ke puppeteer
    * @returns {Promise<string>} HTML lengkap
    */
-  async getHTMLWithFallback(cacheKey, url) {
+  async getHTMLWithFallback(cacheKey, url, pptrSelector = 'body') {
     // 1. Cek Cache
     const cachedHTML = cache.get(cacheKey);
     if (cachedHTML) {
@@ -23,19 +28,39 @@ class ScraperManager {
     }
 
     return limit(async () => {
-      // 2. Coba Axios
+      let html = '';
+      let isSuccess = false;
+
+      // 2. Coba Axios (Cepat)
       try {
-        const html = await axiosProvider.getHTML(url);
+        html = await axiosProvider.getHTML(url);
+        // Proteksi sederhana: jika HTML terlalu pendek, anggap gagal (mungkin capcha/error)
         if (html && html.length > 2000) {
-          cache.set(cacheKey, html);
-          return html;
+          isSuccess = true;
         } else {
           throw new Error('HTML dari Axios terlalu kecil (kemungkinan Cloudflare challenge)');
         }
       } catch (axiosError) {
-        console.warn(`[MANAGER] Axios gagal untuk ${url}. Puppeteer tidak tersedia di versi Vercel ini.`);
-        throw new Error(`Gagal mengambil data dari URL: ${url}`);
+        console.warn(`[MANAGER] Axios gagal untuk ${url}. Fallback ke Puppeteer (Railway Mode)...`);
+        
+        // 3. Fallback ke Puppeteer (Browser Asli)
+        try {
+          html = await puppeteerProvider.getHTML(url, pptrSelector);
+          if (html && html.length > 2000) {
+            isSuccess = true;
+          }
+        } catch (pptrError) {
+          console.error(`[MANAGER] Puppeteer juga gagal untuk ${url}.`);
+        }
       }
+
+      // Jika sukses, simpan di cache
+      if (isSuccess && html) {
+        cache.set(cacheKey, html);
+        return html;
+      }
+
+      throw new Error(`Gagal mengambil data dari URL: ${url}`);
     });
   }
 }
