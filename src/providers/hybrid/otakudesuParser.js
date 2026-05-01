@@ -53,6 +53,50 @@ class OtakudesuParser {
     }
   }
 
+  async searchAnime(query) {
+    const url = `${BASE_URL}/?s=${encodeURIComponent(query)}`;
+    const cacheKey = `otaku_search_${query.replace(/\s+/g, '_')}`;
+    
+    console.log(`[PARSER] Searching anime: ${query}`);
+    
+    try {
+      // Kita tunggu selector 'div.listupd' atau 'article.bs'
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'article.bs');
+      const $ = cheerio.load(html);
+      const results = [];
+
+      $('article.bs').each((i, el) => {
+        const title = $(el).find('.tt h2').text().trim() || $(el).find('a.tip').attr('title');
+        const endpoint = $(el).find('a.tip').attr('href');
+        const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
+        const coverImage = $(el).find('img').attr('src');
+        
+        // Extract status and type
+        const status = $(el).find('.bt .epx').text().trim();
+        const type = $(el).find('.typez').text().trim();
+
+        if (title && slug) {
+          results.push({
+            _id: slug,
+            slug: slug,
+            title: title.replace(/Subtitle Indonesia/gi, '').trim(),
+            coverImage: coverImage,
+            status: status || 'Unknown',
+            type: type || 'TV',
+            rating: 0,
+            currentEpisode: 0
+          });
+        }
+      });
+
+      console.log(`[PARSER] Search found ${results.length} results.`);
+      return results;
+    } catch (err) {
+      console.error(`[PARSER] Search failed: ${err.message}`);
+      return [];
+    }
+  }
+
   async getAnimeDetail(slug) {
     const url = `${BASE_URL}/series/${slug}/`;
     const cacheKey = `otaku_detail_${slug}`;

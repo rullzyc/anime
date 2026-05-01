@@ -53,8 +53,7 @@ const searchAnime = async (req, res, next) => {
     const q = (req.query.q || '').trim().toLowerCase();
     if (!q) return res.json({ success: true, data: [] });
 
-    const all = await otakudesuParser.getLatestAnime(1);
-    const results = all.filter(a => a.title?.toLowerCase().includes(q));
+    const results = await otakudesuParser.searchAnime(q);
     
     res.json({ success: true, data: results });
   } catch (err) {
