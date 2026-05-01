@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const scraperManager = require('./scraperManager');
 
-const BASE_URL = 'https://otakudesu.cloud'; 
+const BASE_URL = 'https://otakudesu.fit'; 
 
 class OtakudesuParser {
   async getLatestAnime(page = 1) {
