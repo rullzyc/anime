@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["nodejs", "google-chrome", "vulkan-loader", "libGL"]
+nixPkgs = ["nodejs", "google-chrome", "vulkan-loader", "libGL", "nss", "alsa-lib", "atk", "cups", "libdrm", "libXdamage", "mesa"]
 
 [phases.install]
 cmds = ["npm install"]
