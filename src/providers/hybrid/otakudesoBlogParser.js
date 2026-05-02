@@ -29,30 +29,28 @@ class OtakudesoBlogParser {
   }
 
   async getLatestAnime(page = 1) {
-    const url = page > 1 ? `${BASE_URL}/page/${page}/` : `${BASE_URL}/`;
-    const cacheKey = `blog_latest_p${page}`;
+    const url = page > 1 ? `${BASE_URL}/ongoing-anime/page/${page}/` : `${BASE_URL}/ongoing-anime/`;
+    const cacheKey = `blog_ongoing_p${page}`;
     console.log(`[BLOG] Mengambil data dari: ${url}`);
 
     try {
-      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'article.bs');
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, '.venz');
       const $ = cheerio.load(html);
       const results = [];
 
-      $('article.bs').each((i, el) => {
-        const fullTitle = $(el).find('.tt h2').text().trim() || $(el).find('a.tip').attr('title') || '';
-        const endpoint = $(el).find('a.tip').attr('href');
-        const rawSlug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
+      $('.venz li').each((i, el) => {
+        const title = $(el).find('h2.jdlflm').text().trim();
+        const endpoint = $(el).find('.thumb a').attr('href');
+        const seriesSlug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
         const coverImage = $(el).find('img').attr('src');
-        const epText = $(el).find('.epx').text().replace(/[^0-9]/g, '').trim();
+        const epText = $(el).find('.epz').text().replace(/[^0-9]/g, '').trim();
         const epNum = parseInt(epText) || 0;
 
-        if (fullTitle && rawSlug && !rawSlug.includes('genre')) {
-          const seriesSlug = this._extractSeriesSlug(rawSlug);
-          const cleanTitle = this._cleanTitle(fullTitle);
+        if (title && seriesSlug) {
           results.push({
             _id: seriesSlug,
             slug: seriesSlug,
-            title: cleanTitle,
+            title: title,
             coverImage,
             status: 'Ongoing',
             type: 'TV',
@@ -72,21 +70,24 @@ class OtakudesoBlogParser {
   }
 
   async searchAnime(query) {
-    const url = `${BASE_URL}/?s=${encodeURIComponent(query)}`;
+    const url = `${BASE_URL}/?s=${encodeURIComponent(query)}&post_type=anime`;
     const cacheKey = `blog_search_${query.replace(/\s+/g, '_')}`;
     console.log(`[BLOG] Mencari: ${query}`);
 
     try {
-      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'article.bs');
+      const html = await scraperManager.getHTMLWithFallback(cacheKey, url, 'ul.chivsrc');
       const $ = cheerio.load(html);
       const results = [];
 
-      $('article.bs').each((i, el) => {
-        const title = $(el).find('.tt h2').text().trim() || $(el).find('a.tip').attr('title') || '';
-        const endpoint = $(el).find('a.tip').attr('href');
+      $('ul.chivsrc li').each((i, el) => {
+        const title = $(el).find('h2 a').text().trim() || $(el).find('h2').text().trim();
+        const endpoint = $(el).find('h2 a').attr('href');
         const slug = endpoint ? endpoint.split('/').filter(Boolean).pop() : null;
         const coverImage = $(el).find('img').attr('src');
-        const type = $(el).find('.typez').text().trim();
+        
+        const setTags = $(el).find('.set').text();
+        const statusMatch = setTags.match(/Status\s*:\s*(.*)/i);
+        const typeMatch = setTags.match(/Tipe\s*:\s*(.*)/i);
 
         if (title && slug) {
           results.push({
@@ -94,8 +95,8 @@ class OtakudesoBlogParser {
             slug,
             title: this._cleanTitle(title),
             coverImage,
-            status: 'Unknown',
-            type: type || 'TV',
+            status: statusMatch ? statusMatch[1].trim() : 'Unknown',
+            type: typeMatch ? typeMatch[1].trim() : 'TV',
             rating: 0,
             currentEpisode: 0,
             source: 'otakudesu.blog'
