@@ -31,7 +31,7 @@ export default function IframePlayer({ server, onError }: IframePlayerProps) {
         allowFullScreen
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         onError={handleError}
-        sandbox="allow-scripts allow-same-origin allow-presentation allow-popups"
+        sandbox="allow-scripts allow-same-origin allow-presentation allow-popups allow-forms allow-modals allow-pointer-lock"
         title={`Video Player - ${server.name}`}
       />
     </div>
